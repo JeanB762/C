@@ -1,0 +1,54 @@
+#include <stdio.h>
+#include <math.h>
+
+int main
+	double salario, novo_salario, diferenca;
+
+	scanf("%lf",&salario);
+		
+
+	if((salario>0)&&(salario<=400)){
+		novo_salario=(salario+(salário*15/100));
+		diferenca=(novo_salario-salario);
+		printf("Novo salario: %.2lf\n",salario);
+		printf("Reajuste ganho: %.2lf\n",diferenca);
+		printf("Em percentual: 15 %\n");
+	}
+
+	else if((salario>400)&&(salario<=800)){
+		novo_salario=(salario+(salário*12/100));
+		diferenca=(novo_salario-salario);
+		printf("Novo salario: %.2lf\n",salario);
+		printf("Reajuste ganho: %.2lf\n",diferenca);
+		printf("Em percentual: 12 %\n");
+	}
+
+	
+	else if((salario>800)&&(salario<=1200)){
+		novo_salario=(salario+(salário*10/100));
+		diferenca=(novo_salario-salario);
+		printf("Novo salario: %.2lf\n",salario);
+		printf("Reajuste ganho: %.2lf\n",diferenca);
+		printf("Em percentual: 10 %\n");
+	}
+
+
+	if((salario>1200)&&(salario<=2000)){
+		novo_salario=(salario+(salário*7/100));
+		diferenca=(novo_salario-salario);
+		printf("Novo salario: %.2lf\n",salario);
+		printf("Reajuste ganho: %.2lf\n",diferenca);
+		printf("Em percentual: 7 %\n");
+	}
+
+
+	if((salario>2000){{
+		novo_salario=(salario+(salário*4/100));
+		diferenca=(novo_salario-salario);
+		printf("Novo salario: %.2lf\n",salario);
+		printf("Reajuste ganho: %.2lf\n",diferenca);
+		printf("Em percentual: 4 %\n");
+	}
+
+	return 0;
+}
